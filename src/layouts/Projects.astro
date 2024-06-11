@@ -1,0 +1,33 @@
+---
+import type { CollectionEntry } from "astro:content";
+import Layout from "@layouts/Layout.astro";
+import Main from "@layouts/Main.astro";
+import Header from "@components/Header.astro";
+import ProjectCard from "@components/ProjectCard.astro";
+import { SITE } from "@config";
+
+export interface Props {
+  projects: CollectionEntry<"project">[];
+}
+
+const { projects } = Astro.props;
+---
+
+<Layout title={`Projects | ${SITE.title}`}>
+  <Header activeNav="projects" />
+  <Main pageTitle="Projects" pageDesc="Projects that I created or maintaining.">
+    <ul
+      class="grid grid-cols-1 gap-x-12 gap-y-12 sm:grid-cols-2 lg:grid-cols-2"
+    >
+      {
+        projects.map(({ data }) => (
+          <ProjectCard
+            title={data.title}
+            description={data.description}
+            url={data.url}
+          />
+        ))
+      }
+    </ul>
+  </Main>
+</Layout>

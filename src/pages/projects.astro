@@ -1,0 +1,10 @@
+---
+import { getCollection } from "astro:content";
+import ProjectList from "@layouts/Projects.astro";
+
+const projects = await getCollection("project");
+
+const filteredProjects = projects.filter(project => !project.data.draft);
+---
+
+<ProjectList projects={filteredProjects} />
