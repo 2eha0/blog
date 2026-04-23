@@ -9,8 +9,13 @@ const { url, title, description } = Astro.props;
 ---
 
 <li>
-  <a href={url} target="_blank" class="block group">
-    <h3 class="font-semibold text-lg group-hover:text-skin-accent">{title}</h3>
-    <div>{description}</div>
+  <a
+    href={url}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="group block rounded-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+  >
+    <h3 class="text-lg font-semibold group-hover:text-accent">{title}</h3>
+    <p class="mt-1 text-sm">{description}</p>
   </a>
 </li>
