@@ -8,6 +8,7 @@ ogImage: https://github.com/satnaing/astro-paper/assets/53733092/1ef0cf03-8137-4
 tags:
   - release
 description: "AstroPaper Version 3: Elevating Your Web Experience with Astro v3 and Seamless View Transitions"
+draft: true
 ---
 
 We're excited to announce the release of AstroPaper v3, packed with new features, enhancements, and bug fixes to elevate your web development experience. Let's dive into the highlights of this release:
@@ -104,7 +105,7 @@ It's important to keep all the files which have been already updated. These file
   code {
     white-space: pre;
     overflow: scroll;
-  } 
+  }
   */
 
   /* New code */

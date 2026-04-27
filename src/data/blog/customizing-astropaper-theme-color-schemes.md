@@ -4,7 +4,7 @@ pubDatetime: 2022-09-25T15:20:35Z
 modDatetime: 2026-01-09T15:00:15.170Z
 title: Customizing AstroPaper theme color schemes
 featured: false
-draft: false
+draft: true
 tags:
   - color-schemes
   - docs

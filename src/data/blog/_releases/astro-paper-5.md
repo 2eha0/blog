@@ -7,6 +7,7 @@ ogImage: ../../../assets/images/AstroPaper-v5.png
 tags:
   - release
 description: "AstroPaper v5: keep the clean look, updates under the hood."
+draft: true
 ---
 
 At last, the long-awaited AstroPaper v5 is finally here. AstroPaper v5 keeps the same minimal & clean look, but comes with significant updates under the hood.
