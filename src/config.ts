@@ -1,7 +1,7 @@
 export const SITE = {
-  website: "https://zehao.is-a.dev/",
+  website: "https://zehao.vercel.app/",
   author: "Zehao Zhang",
-  profile: "https://zehao.is-a.dev/",
+  profile: "https://zehao.vercel.app/",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
   title: "Zehao",
   ogImage: "astropaper-og.jpg",
@@ -14,10 +14,10 @@ export const SITE = {
   editPost: {
     enabled: true,
     text: "Edit page",
-    url: "https://github.com/satnaing/astro-paper/edit/main/",
+    url: "https://github.com/2eha0/blog/edit/main/",
   },
   dynamicOgImage: true,
   dir: "ltr", // "rtl" | "auto"
   lang: "en", // html lang code. Set this empty and default will be "en"
-  timezone: "Asia/Bangkok", // Default global timezone (IANA format) https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  timezone: "Asia/Shanghai", // Default global timezone (IANA format) https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 } as const;
