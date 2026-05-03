@@ -1,7 +1,4 @@
 # Zehao's Engineering Blog
-
-![Zehao's Blog](public/astropaper-og.jpg)
-
 This is my personal engineering blog.
 
 ## 🛠 Tech Stack
