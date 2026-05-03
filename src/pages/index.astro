@@ -23,30 +23,9 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
   <Header />
   <main id="main-content" data-layout="index" class="app-layout">
     <section id="hero" class:list={["pt-8 pb-6", "border-b border-border"]}>
-      <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
-        Hi there!
+      <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl" class="mt-2">
+        Beauty in systems is clarity, not complexity.
       </h1>
-      <a
-        target="_blank"
-        href="/rss.xml"
-        class="inline-block"
-        aria-label="rss feed"
-        title="RSS Feed"
-      >
-        <IconRss
-          width={20}
-          height={20}
-          class="scale-125 stroke-accent stroke-3 rtl:-rotate-90"
-        />
-        <span class="sr-only">RSS Feed</span>
-      </a>
-
-      <p>
-        A senior frontend engineer <LinkButton class="underline decoration-dashed underline-offset-4 hover:text-accent" href="https://www.konghq.com/" target="_blank" rel="noopener noreferrer">@Kong</LinkButton>.
-      </p>
-      <p class="mt-2">
-        True thinking, honest writing, slow and human.
-      </p>
     </section>
 
     {
