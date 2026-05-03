@@ -1,7 +1,7 @@
 ---
 author: Zehao
-pubDatetime: 2026-05-03T10:00:00Z
-modDatetime: 2026-05-03T10:00:00Z
+pubDatetime: 2026-05-03T05:00:00Z
+modDatetime: 2026-05-03T05:00:00Z
 title: "The Design Philosophy of Freeform: Building a Schema-Driven UI with Great DX"
 slug: the-design-philosophy-of-freeform
 featured: true
